@@ -1,0 +1,334 @@
+.numbers{
+    background-color: #ad0909;
+    height: auto;
+    padding: 25px 0px;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers .row {
+    margin: 15px 0px;
+}
+.numbers h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numbers h6 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* css to the pridr section .ingredients and paralex */
+.pride , 
+.ingredients{
+    background-color: transparent;
+    height: auto;
+    padding: 25px 0px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img ,
+.ingredients img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2  ,
+.ingredients h2 ,
+.paralex h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0px;
+    width: 80%;
+    line-height: 50px;
+    color: #ad0909;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pride p ,
+.ingredients p {
+    font-family: 16px;
+    line-height: 28px;
+    color: #333;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pride button ,
+.ingredients button {
+    background-color: #ad0909;
+    border: 1px solid #ad0909;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s ease;
+}
+.pride button:hover ,
+.ingredients button:hover{
+    color: #ad0909;
+    background-color: #fff;
+}
+/* css to the  section ingredients */
+.ingredients ul {
+    padding: 0px;
+}
+.ingredients ul li {
+    list-style-type: square;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-top: 10px;
+}
+.paralex {
+    background-color: #EAE8EB;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex .row {
+    margin: 50px 0px;
+}
+.paralex h2 {
+    width: 100%;
+    margin: 20px 0px;
+}
+.paralex p {
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+.paralex a {
+    color: #ad0909;
+    font-size: 20px;
+    margin: 20px 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none !important;
+}
+/* start css to the section */
+.blogs {
+    margin-top: 50px;
+    padding: 25px 0px;overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child {
+    text-align: center;
+    margin: 25px 0px;
+
+}
+.blogs h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px 0px;
+    width: 100%;
+    line-height: 50px;
+    color: #ad0909;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blogs p {
+    font-family: 16px;
+    line-height: 28px;
+    color: #858282;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    margin-top: 10px ;
+    border-radius: 5px;
+}
+.blogs .box img {
+    max-width: 100%;
+}
+.blogs .box h5 {
+    color: #77132b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 15px 0px;
+
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.blogs .box h6 {
+    color: #A82D49;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blogs button {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #ad0909;
+    border: 1px solid #ad0909;
+    box-sizing: border-box;
+    margin: 10px 0px ;
+    transition: 1s ease-in-out !important;
+}
+.blogs a {
+    color: #fff !important;
+    text-transform: uppercase ;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+.blogs button:hover {
+    background-color: transparent;
+}
+.blogs button:hover a {
+    color: #77132b !important;
+} 
+.text {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
+    
+}
+.text h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 40px 0px;
+    width: 100%;
+    line-height: 50px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h6 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px 0px;
+}
+.text p {
+    font-family: 16px;
+    line-height: 28px;
+    color: #585656;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formx {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 30px ;
+
+}
+.formx h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight:600;
+    margin-top: 40px;
+    width: 100%;
+    line-height: 50px;
+    color: #43121D;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.formx h5 {
+    text-align: center;
+    font-family: 13px;
+    line-height: 28px;
+    color: #7c7b7b;
+    margin: 30px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formx .inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.formx .inputs input {
+    width: 430px ;
+    height: 50px;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+    margin: 20px  20px 60px 0px ;
+    border: none;
+
+}
+.formx .inputs button {
+    width: 190px;
+    height: 50px;
+    margin-top: 20px !important;
+    text-align: center;
+    background-color: #ad0909;
+    border: 2px solid #ad0909;
+    box-sizing: border-box;
+    margin: 10px 0px ;
+    transition: .5s ease-in-out !important;
+}
+
+.formx .inputs a {
+    color: #fff !important;
+    text-transform: uppercase ;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+.formx .inputs button:hover {
+    background-color: transparent;
+}
+.formx .inputs button:hover a {
+    color: #77132b !important;
+}
+/* start css the footer */
+footer {
+    background-color: #A82D49;
+    height: 270px;
+
+
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    
+    list-style-type: none;
+    margin: 50px 20px 0px 0px  ;
+    color: #fff;
+    font-size: 18px;
+}
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+footer .icon {
+    justify-content: center;
+    display: flex;
+}
+footer .icon li {
+    list-style-type: none;
+    
+}
+footer .icon li svg {
+    color: #fff;
+    margin: 20px 10px;
+    font-size: 25px;
+}

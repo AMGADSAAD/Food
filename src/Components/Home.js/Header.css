@@ -1,0 +1,57 @@
+header {
+    background: url("../../assets/home.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+}
+header .row {
+    margin: 50px 0px;
+    padding: 25px 0px;
+}
+header h2 {
+    color: #43121D;
+    font-size:50px ;
+    line-height: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+header p {
+    color: #333;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px 0px;
+}
+header button {
+    width: 150px;
+    height: 50px;
+    background-color: #43121D;
+    text-align: center;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+header button:last-of-type {
+    background-color: #fff;
+    border: none;
+    color: #000000;
+}
+
+header button:first-of-type:hover {
+    background-color: #fff;
+    border: 2px solid #43121D;
+    color: #43121D;
+}
+
+
+header button:last-of-type:hover{
+    background-color: #43121D;
+    border: 2px solid #43121D;
+    color: #fff;
+}
